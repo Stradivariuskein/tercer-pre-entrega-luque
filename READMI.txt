@@ -1,6 +1,15 @@
+#########################**IMPORTANTE**##################################
+Intale los requerimientos : pip install -r requirements.txt
+usuario: ad@admin.com       contraseña: 369258147ad
+#########################################################################
+
 Turno para psicologia
 
-La funcion de la pagina autogestion de turnos para sesion con psicologa.
+
+Pagina para la autogestion de turnos para sesion con psicologa.
+la pagina principal es una presentacion con contenido estatico.
+tiene un formulario para inicio de sesion y registro.
+se pueden reservar turnos.
 
 
 Tiene tres apps:

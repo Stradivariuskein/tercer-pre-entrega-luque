@@ -102,8 +102,10 @@ def view_login(request): # la vista del login
                 return redirect(reverse_lazy('turns'))
             else:
                 content = {"msj": "Usuario o contraseña incorrecta"}
-
-    form = LoginForm()
+    #quitar
+    user = User.objects.get(id=1)
+    form = LoginForm(initial={'email': user.email})
+    #form = LoginForm()
     content["form"] = form
     return render(request, "login/login.html", content)
 
